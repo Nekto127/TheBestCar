@@ -39,12 +39,12 @@ a:hover {
 .icons_row {
     display: flex;
     justify-content: center;
-    gap: 75px;
+    gap: 45px;
     margin-top: 0;
     margin-left: 40px;
 }
 .icons_row img {
-    width: 80px;
+    width: clamp(36px, 18vw, 56px);
 }
 .button {
     display: block;
